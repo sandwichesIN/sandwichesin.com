@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/(.*)"
-  to = "https://m.legakyastore.co.in/:splat"
-  status = 302
-  conditions = { "Country" = ["!US"], "Language" = ["!en"] }
