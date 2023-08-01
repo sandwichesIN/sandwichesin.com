@@ -35,7 +35,7 @@ header {
 .sec_btm {
     position: fixed;
     background: #3A0712;
-    height: 220px;
+    height: calc(100vh - 450px);
     left: 0;
     right: 0;
     bottom: 0;
@@ -46,7 +46,32 @@ header {
     background: #feb911;
     left: 0;
     right: 0;
-    height: 260px;
+    height: calc(100vh - 436px);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+}
+.dr_btn {
+    position: fixed;
+    left: 135px;
+    margin-top: 180px;
+    z-index: 1;
+    top: 35%;
+    bottom: 35%;
+}
+.button_dr {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: black;
+    border: 0;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 25px
+}
+
+.button_dr:hover {
+    cursor:pointer;
 }
