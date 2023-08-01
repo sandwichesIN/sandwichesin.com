@@ -20,7 +20,7 @@ header {
 }
 
 ::selection {
-    background-color: none;;
+    background: none;;
 }
 
 .flex-container {
@@ -85,7 +85,6 @@ header {
     border-radius: 13px;
     color: #ffffff;
     font-size: 20px;
-    cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -100,4 +99,20 @@ header {
     z-index: 1;
     top: 35%;
     bottom: 35%;
+}
+.button_dr:hover {
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.24), 0 2px 50px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    background-color: #ffffff;
+    color:black;
+    cursor: pointer;
+    border: 1px;
+}
+.button_pk:hover {
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.24), 0 2px 50px 0 rgba(0,0,0,0.19);
+    border-color: black;
+    background-color: #ffffff;
+    color:black;
+    border: 5px;
+    cursor: pointer;
 }
