@@ -6,6 +6,7 @@
     <title>Sandwiches | Hot n Crispy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favi.png">
+    <script src="script.js"></script>
 </head>
 <body>
     <header style="background: #feb921; text-align: center;">
@@ -15,12 +16,17 @@
             </a>
         </div>
     </header>
-    <section style="margin-top: 120px;">
+    <audio id="crunch-sound">
+        <source src="crrrunch.mp3" type="audio/mpeg">
+    </audio>
+    <section style="margin-top: 120px; z-index: 1;">
         <h1 style="text-align: center; font-family: 'Montserrat', sans-serif; font-size: 35px;">How would you like to have your order?</h1>
     </section>
-    <section class="sec_mid"></section>
     <section class="dr_btn">
-        <button type="button" class="button_dr" onclick="document.location= 'door-step_del.html'">Door-Step Delivery</button>
+        <button type="button" class="button_dr">Door-Step Delivery</button>
+    </section>
+    <section class="pk_btn">
+        <button type="button" class="button_pk" onclick="document.location= 'cl_kitchen_pk.html'">Cloud-Kitchen Pickup</button>
     </section>
     <section class="sec_btm"></section>
     <section class="flex-container">
