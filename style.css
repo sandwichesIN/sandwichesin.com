@@ -40,7 +40,7 @@ header {
 .sec_btm {
     position: fixed;
     background: #3A0712;
-    height: calc(100vh - 203px);
+    height: calc(100vh - 168px);
     left: 0;
     right: 0;
     bottom: 0;
