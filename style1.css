@@ -1,3 +1,13 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 header {
     right: 0;
     left: 0;
@@ -5,4 +15,14 @@ header {
     position: fixed;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
+}
+.sec_prod {
+    background-color: #fde6ae;
+    height: calc(100vh - 90px);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
