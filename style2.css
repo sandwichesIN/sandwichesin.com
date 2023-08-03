@@ -1,12 +1,10 @@
-/* Hide scrollbar for Chrome, Safari and Opera */
-.example::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-.example {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+.sec_prod::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent; /* Set the scrollbar track color to transparent */
+}
+
+.sec_prod::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Set the scrollbar thumb color to transparent */
 }
 header {
     z-index: 1;
@@ -17,7 +15,14 @@ header {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
+.vl {
+    border-left: 1px solid black;
+    height: 120px;
+    position: absolute;
+    right: 375px;
+}
 .sec_prod {
+    overflow: scroll;
     background-color: #fde6ae;
     height: calc(100vh - 90px);
     position: fixed;
@@ -26,4 +31,60 @@ header {
     bottom: 0;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.MMS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.CCS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.PLS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.img_MMS {
+    width: 205px;
+    left: 127px;
+    position: absolute;
+    border-top-left-radius: 30px;
+    height: inherit;
+    border-bottom-left-radius: 30px;
+}
+.CS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
 }
