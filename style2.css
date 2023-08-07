@@ -17,9 +17,9 @@ header {
 }
 .vl {
     border-left: 1px solid black;
-    height: 120px;
+    height: 140px;
     position: absolute;
-    right: 375px;
+    right: 329px;
 }
 .sec_prod {
     overflow: scroll;
@@ -59,6 +59,8 @@ header {
     height: 140PX;
     border-radius: 30px;
     margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 .PLS {
     position: initial;
@@ -69,6 +71,8 @@ header {
     height: 140PX;
     border-radius: 30px;
     margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
 }
 .img_MMS {
     width: 205px;
@@ -87,4 +91,48 @@ header {
     height: 140PX;
     border-radius: 30px;
     margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.EGS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.EDGS {
+    position: initial;
+    border: 1.5px dashed black;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 140PX;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.button_on {
+    background-color: black;
+    padding: 17px 40px;
+    border: none;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    box-shadow: 0 2px 30px 0 rgba(0,0,0,0.24), 0 2px 50px 0 rgba(0,0,0,0.19);
+    position: absolute;
+    right: 137px;
+    margin-top: 55px;
+}
+.button_on:hover {
+    cursor: pointer;
 }
