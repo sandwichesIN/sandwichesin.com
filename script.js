@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 if(screen.width <= 699) {
-    document.location = "m.legakyastore.co.in";
+    document.location = "https://m.legakyastore.co.in/";
 }
